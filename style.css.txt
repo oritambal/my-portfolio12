@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  direction: rtl;
+}
+
+.container {
+  position: relative;
+}
+
+.portrait-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.portrait {
+  width: 500px;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+/* עיניים */
+.eye {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+/* מקם את העיניים בערך איפה שהן בתמונה שלך */
+.left-eye {
+  top: 160px;
+  left: 170px;
+}
+
+.right-eye {
+  top: 160px;
+  left: 270px;
+}
